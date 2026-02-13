@@ -8,6 +8,27 @@
 
 **Task Description:**
 
+Complete the function that takes a paragraph of text and returns a count of how many times each word appears.
+
+Here is an example input/output pair:
+
+Input (string):
+"The quick brown fox jumps over the lazy dog. The dog was not lazy, but the fox was quick."
+
+Output (csv):
+Word,Count
+the,4
+quick,2
+fox,2
+lazy,2
+dog,2
+was,2
+brown,1
+jumps,1
+over,1
+not,1
+but,1
+
 **Starter Code:**
 
 The function and example test file is found in https://github.com/GDeane/CS846_week6_counterexample/tree/main/Week5/A_1.
