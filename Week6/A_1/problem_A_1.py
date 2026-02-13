@@ -9,6 +9,8 @@ behavior follows the sample in the assignment:
 - Words are sequences of letters and apostrophes (e.g., "don't" counts as one word).
 
 """
+import re
+from collections import Counter
 from typing import Dict
 
 
@@ -18,7 +20,9 @@ def count_word_frequencies(text: str) -> Dict[str, int]:
     Replace the body with your implementation. The current placeholder raises
     NotImplementedError so tests will fail until you implement it.
     """
-    raise NotImplementedError("Implement this function to count word frequencies")
+    text = text.lower()
+    words = re.findall(r"[a-z']+", text)
+    return dict(Counter(words))
 
 
 if __name__ == "__main__":
