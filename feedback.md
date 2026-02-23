@@ -1,4 +1,4 @@
-# Week 5 Feedback: CodeGen / Planning
+# Week 6 Feedback: CodeGen / Planning
 
 **Authors:** [Gavin Deane, Artemiy Vishnyakov, Savira Umar]
 
