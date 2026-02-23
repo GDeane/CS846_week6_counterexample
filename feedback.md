@@ -400,16 +400,14 @@ def init_pipeline(config_path: str) -> Callable[[str], str]:
 
 This output is weak for this task because:
 
-- There is **no meaningful algorithmic decision** --- the pipeline
-  must apply steps sequentially.
-- The complexity is **integration-based**, not computational.
+- There is no meaningful algorithmic decision — the pipeline must apply steps sequentially.
+- The complexity in this problem is integration-based, not computational.
 - The real risks are:
-  - Config schema validation\
-  - Module export validation (`REGISTRY` / `get_registry()`)\
-  - Step existence validation\
-  - Clear and consistent failure modes\
-- Over-emphasizing performance distracts from correctness and
-  maintainability.
+- Config schema validation
+- Module export validation (REGISTRY / get_registry())
+- Step existence validation
+- Clear and consistent failure modes
+- Over-emphasizing performance distracts from correctness and maintainability.
 
 Guideline 2 works for algorithm-heavy problems, but here it pushes
 optimization in the wrong dimension.
