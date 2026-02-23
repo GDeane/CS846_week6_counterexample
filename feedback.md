@@ -305,7 +305,7 @@ The function and example test file is found in https://github.com/GDeane/CS846_w
 
 A note on GenAI contribution:\
 The counterexample prompts and structured documentation were generated
-using GitHub Copilot (GPT-5.1 / Grok Code Fast 1).
+using GitHub Copilot (Grok Code Fast 1).
 
 ---
 
@@ -322,7 +322,7 @@ using GitHub Copilot (GPT-5.1 / Grok Code Fast 1).
 **Context Given:**\
 `Week6/plugin_loader.py`
 
-**Prompt (Original --- applying Guideline 2 too literally):**
+**Prompt (Original applying Guideline 2):**
 
 > Implement `plugin_loader.py` using an efficient algorithmic approach.
 > Ensure optimal time complexity. Avoid redundant operations. Explain
@@ -401,7 +401,7 @@ optimization in the wrong dimension.
 
 ---
 
-## Guideline 2 (Revised): Match the "Detail Type" to the "Complexity Type"
+## Guideline 2: Match the "Detail Type" to the "Complexity Type"
 
 ---
 
@@ -506,7 +506,7 @@ The function and example test file is found in https://github.com/GDeane/CS846_w
 
 A note on GenAI contribution:\
 Structured explanations and draft outputs were generated using GitHub
-Copilot (GPT-5.1 / Grok Code Fast 1).
+Copilot (Grok Code Fast 1).
 
 ---
 
@@ -523,7 +523,7 @@ Copilot (GPT-5.1 / Grok Code Fast 1).
 **Context Given:**\
 `Week6/plugin_loader.py`
 
-**Prompt (Original --- "do everything" in one response):**
+**Prompt (Original):**
 
 > Read `plugin_loader.py` and generate the full implementation,
 > documentation, explanation, testing suggestions, edge cases, and
@@ -629,7 +629,7 @@ prevented actual iterative refinement.
 
 ---
 
-## Guideline 5 (Revised): Enforce Bounded Mini-Cycles
+## Guideline 5: Enforce Bounded Mini-Cycles
 
 ---
 
