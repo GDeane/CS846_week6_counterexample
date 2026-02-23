@@ -299,8 +299,9 @@ class DataFrameProcessor:
 Implement and explain `plugin_loader.py` (loads JSON config, resolves
 module, imports plugins dynamically, builds a pipeline).
 
-**Artifact Used:**\
-`plugin_loader.py`
+**Starter Code:**
+
+The function and example test file is found in https://github.com/GDeane/CS846_week6_counterexample/tree/main/Week5/C_1.
 
 A note on GenAI contribution:\
 The counterexample prompts and structured documentation were generated
@@ -319,7 +320,7 @@ using GitHub Copilot (GPT-5.1 / Grok Code Fast 1).
 ## Prompt and Context
 
 **Context Given:**\
-`Week6/Artifacts/plugin_loader.py`
+`Week6/plugin_loader.py`
 
 **Prompt (Original --- applying Guideline 2 too literally):**
 
@@ -498,8 +499,10 @@ Generate full implementation, documentation, explanation, testing
 suggestions, edge cases, and extensibility ideas for `plugin_loader.py`
 in a single response.
 
-**Artifact Used:**\
-`plugin_loader.py`
+
+**Starter Code:**
+
+The function and example test file is found in https://github.com/GDeane/CS846_week6_counterexample/tree/main/Week5/C_1.
 
 A note on GenAI contribution:\
 Structured explanations and draft outputs were generated using GitHub
@@ -518,7 +521,7 @@ Copilot (GPT-5.1 / Grok Code Fast 1).
 ## Prompt and Context
 
 **Context Given:**\
-`Week6/Artifacts/plugin_loader.py`
+`Week6/plugin_loader.py`
 
 **Prompt (Original --- "do everything" in one response):**
 
