@@ -31,7 +31,7 @@ but,1
 
 **Starter Code:**
 
-The function and example test file is found in https://github.com/GDeane/CS846_week6_counterexample/tree/main/Week5/A_1.
+The function and example test file is found in https://github.com/GDeane/CS846_week6_counterexample/tree/master/Week6/A_1.
 
 > A note on GenAI contribution: The code examples and test files were generated using GitHub Copilot: GPT-5.1-Codex-Max
 
@@ -164,7 +164,7 @@ Create a program to generate a dataframe of specified byte size, populate it wit
 
 **Starter Code:**
 
-The function and example test file is found in https://github.com/GDeane/CS846_week6_counterexample/tree/main/Week5/B_1.
+The function and example test file is found in https://github.com/GDeane/CS846_week6_counterexample/tree/master/Week6/B_1.
 
 > A note on GenAI contribution: The guidelines were tested using Grok Code Fast 1 (which is now no longer a 0x model?) to create the examples.
 
@@ -301,7 +301,7 @@ module, imports plugins dynamically, builds a pipeline).
 
 **Starter Code:**
 
-The function and example test file is found in https://github.com/GDeane/CS846_week6_counterexample/tree/main/Week5/C_1.
+The function and example test file is found in https://github.com/GDeane/CS846_week6_counterexample/tree/master/Week6/C_1.
 
 A note on GenAI contribution:\
 The counterexample prompts and structured documentation were generated
